@@ -1,0 +1,14 @@
+{
+  "name": "react-rte",
+  "version": "1.0.0",
+  "description": "Modular rich text editor with React that saves the result either as HTML or Json.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Peter Balazs",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.11.2"
+  }
+}
