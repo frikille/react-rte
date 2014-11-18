@@ -1,8 +1,8 @@
 react = require 'react/addons'
-headings = require './heading.ls'
-keyhandlers = require './keyhandlers.ls'
-selection = require './selection.ls'
-formatting = require './formatting.ls'
+headings = require './heading'
+keyhandlers = require './keyhandlers'
+selection = require './selection'
+formatting = require './formatting'
 
 {div, p, button} = react.DOM
 
