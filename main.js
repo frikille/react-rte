@@ -1,2 +1,1 @@
-require('Livescript');
-module.exports = require('./src/editor.ls');
+module.exports = require('./lib/editor');
