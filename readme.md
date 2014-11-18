@@ -7,10 +7,10 @@
 - [x] Selection overwrite and delete selection
 - [x] Delete lines
 - [x] Create new paragraph if user hits enter in the middle of text
-- [ ] Formatting - bold
-- [ ] Formatting - italic
-- [ ] Formatting - underline
-- [ ] Formatting - strike
+- [x] Formatting - bold
+- [x] Formatting - italic
+- [x] Formatting - underline
+- [x] Formatting - strikethrough
 - [x] h1, h2, h3, h4
 - [ ] Unordered list
 - [ ] Ordered list
@@ -21,4 +21,4 @@
 - [ ] Code
 - [ ] copy/paste
 - [ ] undo/redo
-- [ ] normalise nodes
+- [x] normalise nodes
