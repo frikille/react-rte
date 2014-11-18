@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "Rich text editor with React that saves the result either as HTML or Json.",
   "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/frikille/react-rte.git"
+  },
+  "bugs": {
+    "url": "https://github.com/frikille/react-rte/issues"
+  },
   "files": [
     "main.js",
     "src/"

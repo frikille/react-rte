@@ -312,15 +312,6 @@ module.exports = react.create-class do
     selection.remove-all-ranges!
     selection.add-range range
 
-  component-did-mount: ->
-    /*target = document.query-selector '#contenteditable'
-
-    observer = new MutationObserver (mutations) ->
-      mutations.for-each (mutation) ->
-        1
-
-    observer.observe target, attributes: true, child-list: true, character-data: true, subtree: true*/
-
   render-json-to-html-two: (node) ->
     if node.child-nodes && node.child-nodes.length == 1 && node.child-nodes[0].node-type == 3
       react.DOM[node.tag-name] 'data-tag-key': node.key, node.child-nodes[0].text-content
@@ -335,8 +326,6 @@ module.exports = react.create-class do
     @merge-siblings-formatting-nodes merge-test
 
   render: ->
-
-    console.log @state.content
 
     div class-name: 'react-rte',
       div class-name: 'rte-toolbar',
