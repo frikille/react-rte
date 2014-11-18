@@ -15,7 +15,7 @@
     "lib/"
   ],
   "scripts": {
-    "install": "make && make build",
+    "install": "make",
     "test": "make test"
   },
   "author": "Peter Balazs",

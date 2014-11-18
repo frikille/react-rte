@@ -16,8 +16,4 @@ all: build
 build: $(LIB) package.json
 
 clean:
-	rm -f ./*.js
 	rm -rf lib
-	rm -rf browser
-	rm -rf coverage
-	rm -f package.json
