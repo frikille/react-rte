@@ -1,1 +1,24 @@
 # Rich text editor with ReactJs
+
+- [x] Inserting new paragraph after the current cursor
+- [x] Data structure
+- [x] Adding character at the end of line, delete character from the end of line
+- [x] Keeping the cursor at the proper position (insert, delete)
+- [x] Selection overwrite and delete selection
+- [x] Delete lines
+- [x] Create new paragraph if user hits enter in the middle of text
+- [ ] Formatting - bold
+- [ ] Formatting - italic
+- [ ] Formatting - underline
+- [ ] Formatting - strike
+- [x] h1, h2, h3, h4
+- [ ] Unordered list
+- [ ] Ordered list
+- [ ] Insert link
+- [ ] Insert image
+- [ ] Left, center, right, justify
+- [ ] Block quote
+- [ ] Code
+- [ ] copy/paste
+- [ ] undo/redo
+- [ ] normalise nodes

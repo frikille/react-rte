@@ -1,7 +1,7 @@
 {
   "name": "react-rte",
   "version": "1.0.0",
-  "description": "Modular rich text editor with React that saves the result either as HTML or Json.",
+  "description": "Rich text editor with React that saves the result either as HTML or Json.",
   "main": "main.js",
   "files": [
     "main.js",
@@ -13,6 +13,7 @@
   "author": "Peter Balazs",
   "license": "ISC",
   "dependencies": {
-    "react": "^0.11.2"
+    "react": "^0.12.0",
+    "LiveScript": "^1.3.1"
   }
 }
