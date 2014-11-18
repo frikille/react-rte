@@ -14,10 +14,6 @@
     "main.js",
     "lib/"
   ],
-  "scripts": {
-    "install": "make",
-    "test": "make test"
-  },
   "author": "Peter Balazs",
   "license": "ISC",
   "dependencies": {
