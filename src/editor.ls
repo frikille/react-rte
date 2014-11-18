@@ -24,7 +24,7 @@ module.exports = react.create-class do
   get-initial-state: ->
 
     root-key = 'root'
-    modified-data = @add-keys-to-tags test-data, root-key
+    modified-data = @add-keys-to-tags @props.data, root-key
 
     state =
       content: modified-data
